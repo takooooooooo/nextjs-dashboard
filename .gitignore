@@ -1,0 +1,38 @@
+node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/nextjs-dashboard/node_modules
+/nextjs-dashboard/.pnp
+nextjs-dashboard/.pnp.js
+
+# testing
+/nextjs-dashboard/coverage
+
+# next.js
+/nextjs-dashboard/.next/
+/nextjs-dashboard/out/
+
+# production
+/nextjs-dashboard/build
+
+# misc
+nextjs-dashboard/.DS_Store
+nextjs-dashboard/*.pem
+
+# debug
+nextjs-dashboard/npm-debug.log*
+nextjs-dashboard/yarn-debug.log*
+nextjs-dashboard/yarn-error.log*
+
+# local env files
+nextjs-dashboard/.env*.local
+nextjs-dashboard/.env
+
+# vercel
+nextjs-dashboard/.vercel
+
+# typescript
+nextjs-dashboard/*.tsbuildinfo
+nextjs-dashboard/next-env.d.ts
